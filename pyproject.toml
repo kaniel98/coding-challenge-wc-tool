@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ccwc"
+version = "0.1.0"
+description = ""
+authors = ["Kaniel Koh <kankoh98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+click = "^8.1.7"
+click-default-group = "^1.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ccwc = "ccwc:cli"
